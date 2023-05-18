@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">SEN Preview Form</h1>
+        <p id="description">Thanks for free codecamp Tutorials</p>
+      </header>
+      <form id="survey-form">
+        <fieldset class="top">
+          <label for="name" id="name-label"
+            >Enter first Name:
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder="first name"
+          /></label>
+          <label for="last-name"
+            >Enter second Name:
+            <input
+              type="text"
+              id="second-name"
+              required
+              placeholder="last name"
+          /></label>
+          <label for="email" id="email-label"
+            >Email:<input type="email" id="email" required placeholder="Email"
+          /></label>
+          <label for="password"
+            >Password:
+            <input
+              type="password"
+              id="password"
+              pattern="[]"
+              required
+              placeholder="**********"
+          /></label>
+          <label for="number" id="number-label">
+            Phone no.
+            <input
+              type="number"
+              id="number"
+              pattern="[0-9]{11}"
+              min="07000000000"
+              max="09999999999"
+              required
+              placeholder="phone number"
+            />
+          </label>
+        </fieldset>
+        <fieldset class="second">
+          <legend>Please select one</legend>
+          <label for="male">
+            <input type="radio" id="male" name="gender" class="radio" value="gender"/>
+            male
+          </label>
+          <label for="female">
+            <input type="radio" id="female" name="gender" class="radio" value="gender"/>
+            female
+          </label>
+          <label><input type="radio" id="rather" name="gender" class="radiokkkkkkkk" value="gender"/> rather not say</label>
+        </fieldset>
+        <fieldset class="third">
+          <legend>What do you think we improve</legend>
+          <select id="dropdown">
+            <option>(select one)</option>
+            <option>Our Videos</option>
+            <option>Our work out tutorials</option>
+            <option>Approaches to answers</option>
+            <option>Certificate program</option>
+          </select>
+        </fieldset>
+        <fieldset class="fourth">
+          <legend>How was the camp tutorials</legend>
+          <label for="awesome"><input type="checkbox" name="good" class="align" value="about">Awesome, Thanks.</label>
+          <label for="exceptional"><input type="checkbox" name="good" class="align" value="about">Exceptional, Nice jobs..</label>
+          <label for="better"><input type="checkbox" name="good" class="align" value="about">You could do better.</label>
+          <label for="awful"><input type="checkbox" name="bad" class="align" value="about">Awful, Please improve.</label>
+        </fieldset>
+        <label class="label" for="question">Ask  your question:<textarea id="question" name="question" row="4" cols="30" placeholder="What's on your on mind?"></textarea></label>
+    <input  id="submit" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
+
