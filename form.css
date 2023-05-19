@@ -8,7 +8,7 @@ body {
 }
 .container {
     height: 100%;
-    width: 550px;
+    width: 650px;
     margin: 10px auto;
     background-color: #c0c0c0;
     border-radius: 5px;
@@ -28,11 +28,11 @@ label{
 }
 .top input {
     display: flex;
-    height: 23px;
-    width: 200px;
+    height: 30px;
+    width: 300px;
     margin: 2px 0;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 .second, .third, .fourth {
     border: none;
@@ -52,4 +52,8 @@ label{
     background-color: #929cda;
     width: 150px;
     height: 40px;
+}
+#dropdown {
+    height: 30px;
+    border-radius: 4px; 
 }
